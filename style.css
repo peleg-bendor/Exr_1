@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	font-family: 'Nunito', sans-serif;
+}
+
+.page-container {
+	width: 1200px;
+	height: 3000px;
+	background-color: yellow;
+	position: relative;
+}
+
+/* Header and Navigation Area */
+.area1 {
+	width: 1046px;
+    height: 65px;
+    position: relative;
+    top: 32px;
+    left: 32px;
+    background-color: tomato; /* TEMP */
+    display: flex;
+    align-items: center;
+	justify-content: space-between;
+    padding-left: 0;
+}
+
+.logo-area {
+	width: 252px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    background-color: purple; /* TEMP */
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.logo-area img {
+    height: 64px;
+    width: auto;
+    object-fit: contain; /* Ensures the image isn't distorted */
+}
+
+.logo-text {
+	font-size: 24px;
+	color: cyan;
+	font-family: 'Nunito', sans-serif;
+	font-weight: bold;
+	margin-left: 10px;
+}
+
+/* Navigation Styles */
+.nav-menu {
+	display: flex;
+	align-items: center;
+}
+
+.nav-menu ul {
+	display: flex;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav-menu li {
+	margin: 0 15px;
+}
+
+.nav-menu a {
+	text-decoration: none;
+	color: cornflowerblue;
+	font-size: 30px; /* As requested */
+	font-weight: 400; /* Regular weight */
+	transition: color 0.3s ease;
+}
+
+.nav-menu a:hover {
+	color: red;
+}
+
+/* Hero Section (Area2) */
+.area2 {
+	width: 100%;
+    height: auto;
+	top: 64px;
+    position: relative;
+    background-color:brown; /* TEMP */
+    display: flex;
+    padding: 0;
+}
+
+
+.enjoy-content {
+	position: absolute;
+	top: 32px;
+	left: 32px;
+	width: 448px;
+	height: 230px;
+	background-color:darkgoldenrod; /* TEMP */
+	z-index: 1;
+}
+
+.enjoy {
+	font-size: 96px;
+	color:crimson;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 800;
+	margin: 0;
+	line-height: 1;}
+
+.enjoy-par {
+	max-width: 450px;
+}
+
+.enjoy-par p {
+	font-size: 24px;
+	color:darkgreen;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.enjoy-image {
+    height: 797px;
+    width: 1200;
+	object-fit: contain;
+}
+
+
