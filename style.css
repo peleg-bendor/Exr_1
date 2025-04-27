@@ -1,6 +1,4 @@
 body {
-	margin: 0;
-	padding: 0;
 	display: flex;
 	justify-content: center;
 	font-family: 'Nunito', sans-serif;
@@ -16,15 +14,14 @@ body {
 /* Header and Navigation Area */
 .area1 {
 	width: 1046px;
-    height: 65px;
+    height: 64px;
     position: relative;
     top: 32px;
     left: 32px;
-    background-color: tomato; /* TEMP */
+    background-color: tomato;
     display: flex;
     align-items: center;
 	justify-content: space-between;
-    padding-left: 0;
 }
 
 .logo-area {
@@ -32,9 +29,7 @@ body {
     height: 64px;
     display: flex;
     align-items: center;
-    background-color: purple; /* TEMP */
-	padding-left: 0;
-	margin-left: 0;
+    background-color: purple;
 }
 
 .logo-area img {
@@ -44,11 +39,15 @@ body {
 }
 
 .logo-text {
-	font-size: 24px;
-	color: cyan;
+	width: 191px;
+	height: 33px;
 	font-family: 'Nunito', sans-serif;
-	font-weight: bold;
-	margin-left: 10px;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 100%;
+	letter-spacing: 0.25em;
+	color: cyan;
+	margin-top: 10px;
 }
 
 /* Navigation Styles */
@@ -60,12 +59,10 @@ body {
 .nav-menu ul {
 	display: flex;
 	list-style: none;
-	margin: 0;
-	padding: 0;
 }
 
 .nav-menu li {
-	margin: 0 15px;
+	margin: 0 25px;
 }
 
 .nav-menu a {
@@ -86,9 +83,8 @@ body {
     height: auto;
 	top: 64px;
     position: relative;
-    background-color:brown; /* TEMP */
+    background-color:brown;
     display: flex;
-    padding: 0;
 }
 
 
@@ -98,11 +94,11 @@ body {
 	left: 32px;
 	width: 448px;
 	height: 230px;
-	background-color:darkgoldenrod; /* TEMP */
+	background-color:darkgoldenrod;
 	z-index: 1;
 }
 
-.enjoy {
+.area2 .enjoy {
 	font-size: 96px;
 	color:crimson;
 	font-family: 'Nunito', sans-serif;
@@ -124,9 +120,58 @@ body {
 }
 
 .enjoy-image {
+	position: a;
     height: 797px;
     width: 1200;
+	top: 128px;
 	object-fit: contain;
 }
+
+
+
+/* Hero Section (Area2) */
+.area3 {
+	width: 1136px;
+	top: 957px;
+	left: 32px;
+	position: absolute;
+    background-color: lime;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+
+.area3 .about {
+	width: auto;
+	font-family: 'Nunito', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	color:blue;
+	position: relative;
+	margin-top: 0;
+	margin-bottom: 32px;
+
+}
+
+.about-3-par {
+	position: relative;
+	max-width: 1136px;
+}
+
+.about-3-par p {
+	width: 100%;
+	/* height: 310px;
+	top: 1029px;
+	left: 32px; */
+	font-family: 'Nunito', sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	color:blueviolet;
+	position: relative;
+	line-height: 1.5;
+	margin-bottom: 15px;
+}
+
+
 
 
