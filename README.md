@@ -61,7 +61,7 @@ and there needs to be a 16px gap above the text item.
 
 1.2.
 under
-who we are block we have an unorginized least of 3 icons. each icon has height 20px, the width wont be distorted.
+who we are block we have an unorginized list of 3 icons. each icon has height 20px, the width wont be distorted.
 
 1.3.
 under the icons we have a block of text-
