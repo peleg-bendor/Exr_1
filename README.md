@@ -103,3 +103,177 @@ font-weight: 400;
 font-size: 16px;
 line-height: 100%;
 letter-spacing: 0%;
+
+
+
+
+tasks:
+
+
+
+area4 -----
+
+
+
+/* Area 5 */
+.area5 {
+	width: 100%;
+	height: 287px;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	box-sizing: border-box;
+	background-color: lightskyblue;
+	padding: 32px;
+}
+
+/* Who We Are */
+.who-we-are {
+	font-family: 'Nunito', sans-serif;
+	background-color: blue;
+	display: inline-block;
+	margin-bottom: 24px;
+	margin-right: 150px;
+}
+
+.who-we-are-content ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-bottom: 0;
+}
+
+.who-we-are-title {
+	font-family: 'Nunito', sans-serif;
+	color: lightcyan;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.who-we-are-link {
+	background: none;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+	color: lightpink;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;	
+	margin-top: 0;
+	display: block;
+	transition: color 0.3s ease;
+	cursor: pointer;
+	padding: 0;
+	text-align: left;
+}
+
+.who-we-are-link:hover {
+	color:darksalmon;
+}
+
+/* Follow Us */
+.follow-us {
+	font-family: 'Nunito', sans-serif;
+	background-color: purple;
+	display: inline-block;
+	margin-bottom: 24px;
+}
+
+.follow-us-content ul {
+	list-style-type: none;
+	padding-left: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 8px;
+	margin-bottom: 0;
+}
+
+.follow-us-title {
+	font-family: 'Nunito', sans-serif;
+	color: lightcyan;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0%;
+	text-transform: uppercase;
+	margin-bottom: 16px;
+	margin-top: 0;
+}
+
+.follow-us-link {
+	background: none;
+	border: none;
+	font-family: 'Nunito', sans-serif;
+	color: lightpink;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;	
+	margin-top: 0;
+	display: block;
+	transition: color 0.3s ease;
+	cursor: pointer;
+	padding: 0;
+	text-align: left;
+}
+
+.follow-us-link:hover {
+	color:darksalmon;
+}
+
+/* Social Media Icons */
+.social-icons {
+	background-color: green;
+	margin-bottom: 16px;
+	display: flex;
+	width: fit-content;
+}
+
+.social-icons-content ul {
+	display: flex;
+	list-style: none;
+	gap: 24px;
+	padding-left: 0;
+	margin: 0;
+}
+
+.social-icons-link {
+	background: none;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.social-icons-link img  {
+	height: 20px;
+	width: auto;
+	object-fit: contain;
+}
+
+/* Copyright */
+
+.copyright {
+	width: 198px;
+	height: 18px;
+	background-color: gold;
+}
+
+.copyright-text {
+	font-family: 'Nunito', sans-serif;
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 100%;
+	letter-spacing: 0%;
+}

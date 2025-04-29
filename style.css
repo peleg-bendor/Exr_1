@@ -2,24 +2,28 @@ body {
 	display: flex;
 	justify-content: center;
 	font-family: 'Nunito', sans-serif;
+	margin: 0;
+	padding: 0;
+	width: 100%;
 }
 
 .page-container {
-	width: 1200px;
-	height: 3000px;
+	width: 100%;
+	min-height: 100vh;
 	background-color: yellow;
 	position: relative;
+	display: flex;
+	flex-direction: column;
 }
 
 
 
 /* Area 1 */
 .area1 {
-	width: 1046px;
+	width: calc(100% - 32px - 122px);
     height: 64px;
-    position: relative;
-    top: 32px;
-    left: 32px;
+    margin-top: 32px;
+    margin-left: 32px;
     background-color: tomato;
     display: flex;
     align-items: center;
@@ -38,7 +42,7 @@ body {
 .logo-area img {
     height: 64px;
     width: auto;
-    object-fit: contain; /* Ensures the image isn't distorted */
+    object-fit: contain;
 }
 
 .logo-text {
@@ -62,10 +66,11 @@ body {
 .nav-menu ul {
 	display: flex;
 	list-style: none;
+	padding: 0;
 }
 
 .nav-menu li {
-	margin: 0 25px;
+	margin: 0 64px;
 }
 
 .nav-link {
@@ -80,21 +85,35 @@ body {
 	padding: 0;
 }
 
-.nav-link:hover {
+.nav-link-active {
+	background: none;
+	border: none;
 	color: red;
+	font-size: 30px;
 	font-weight: 700;
+	transition: color 0.3s ease;
+	cursor: pointer;
+	font-family: 'Nunito', sans-serif;
+	padding: 0;
 }
 
+.nav-link:hover {
+	color: red;
+}
+
+.nav-link.active {
+	font-weight: 700;
+}
 
 
 /* Area 2 */
 .area2 {
 	width: 100%;
     height: auto;
-	top: 64px;
     position: relative;
     background-color:brown;
-    display: flex;
+	margin-top: 32px;
+	overflow: hidden;
 }
 
 .enjoy-content {
@@ -133,25 +152,22 @@ body {
 
 /* Hero Background Image */
 .enjoy-image {
-	position: a;
-    height: 797px;
-    width: 1200;
-	top: 128px;
-	object-fit: contain;
+    width: 100%;
+    height: auto;
+	object-fit: cover;
+	display: block;
 }
 
 
 
 /* Area 3 */
 .area3 {
-	width: 1136px;
-	height: 382px;
-	top: 957px;
-	left: 32px;
-	position: absolute;
+    width: calc(100% - 64px);
     background-color: lime;
-	padding: 15px;
+	margin-left: 32px;
+	margin-top: 32px;
 	box-sizing: border-box;
+	clear: both;
 }
 
 /* About Title */
@@ -164,13 +180,12 @@ body {
 	position: relative;
 	margin-top: 0;
 	margin-bottom: 24px;
-
 }
 
 /* About Paragraph */
 .about-3-par {
 	position: relative;
-	max-width: 1136px;
+	width: 100%;
 }
 
 .about-3-par p {
@@ -188,13 +203,14 @@ body {
 
 /* Area 4 */
 .area4 {
-	top: 1371px;
-	left: 32px;
-	width: 1136px;
-	position: absolute;
+    width: calc(100% - 64px);
+	position: relative;
 	background-color: beige;
 	padding: 0;
-
+	margin-left: 32px;
+	margin-top: 32px;
+	box-sizing: border-box;
+	clear: both;
 }
 
 /* Popular Drinks Title */
@@ -362,13 +378,22 @@ button.product-name {
 /* Area 5 */
 .area5 {
 	width: 100%;
-	height: 287px;
-	position: absolute;
-	bottom: 0;
-	left: 0;
+	height: 246px;
+	background-color: mediumorchid;
+}
+
+
+
+/* Area 6 */
+.area6 {
+	width: 100%;
+	height: auto;
+	min-height: 287px;
+	position: relative;
 	box-sizing: border-box;
 	background-color: lightskyblue;
 	padding: 32px;
+	margin-top: auto;
 }
 
 /* Who We Are */
@@ -468,6 +493,7 @@ button.product-name {
 	cursor: pointer;
 	padding: 0;
 	text-align: left;
+	text-decoration: none;
 }
 
 .follow-us-link:hover {
@@ -498,6 +524,7 @@ button.product-name {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-decoration: none;
 }
 
 .social-icons-link img  {
@@ -521,8 +548,3 @@ button.product-name {
 	line-height: 100%;
 	letter-spacing: 0%;
 }
-
-
-
-
-
