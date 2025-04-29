@@ -464,7 +464,6 @@ button.product-name {
 	border: none;
 	padding: 0;
 	cursor: pointer;
-	transition: color 0.3s ease;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -493,23 +492,3 @@ button.product-name {
 }
 
 
-
-.enjoy-content {
-	position: absolute;
-	top: 32px;
-	left: 32px;
-	width: 448px;
-	height: 230px;
-	background-color:darkgoldenrod;
-	z-index: 1;
-}
-
-/* Hero Title */
-.area2 .enjoy {
-	font-size: 96px;
-	color:crimson;
-	font-family: 'Nunito', sans-serif;
-	font-weight: 800;
-	margin: 0;
-	line-height: 1;
-}
