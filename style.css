@@ -465,7 +465,6 @@ button.product-name {
 	width: calc(100% - 64px);
 	margin-left: 32px;
 	margin-top: 32px;
-	background-color: lightpink;
 	box-sizing: border-box;
 }
 
@@ -476,22 +475,44 @@ button.product-name {
 	font-size: 40px;
 	line-height: 40px;
 	letter-spacing: 0%;
-	background-color: aliceblue;
+	margin-top: 0;
+	margin-bottom: 24px;
+	color: #612999;
 }
 
-.free-space {
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+	background-color: #EFECFF;
+	/* transform-origin: center; */
+
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+
+/* .free-space {
 	width: calc(100% - 64px);
 	margin-left: 32px;
 	margin-top: 32px;
 	background-color: burlywood;
 	box-sizing: border-box;
-}
+} */
 
-.ska-doosh {
+/* .ska-doosh {
 	width: 100%;
 	height: 503px;
 	background-color:aquamarine;
-}
+} */
 
 
 /* Area 9 */
