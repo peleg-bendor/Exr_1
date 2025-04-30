@@ -271,33 +271,16 @@ body {
 	box-sizing: border-box;
 }
 
-.like-btn {
+.like-circle {
 	position: absolute;
 	top: 35px;
 	right: 35px;
 	width: 47px;
 	height: 47px;
 	background-color: pink;
-	border: none;
 	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	cursor: pointer;
 	z-index: 2;
-	transition: background-color 0.3s ease;
-	padding: 0;
-	overflow: hidden;
-	box-sizing: border-box;
-}
-
-.like-btn:hover {
-	background-color: darkmagenta;
-}
-
-.like-btn img {
-	width: 60%;
-	height: auto;
+	cursor: pointer;
 }
 
 .card img {
@@ -501,7 +484,38 @@ button.product-name {
 
 
 
+/* Area 8 */
+.area8 {
+	width: calc(100% - 64px);
+	margin-left: 32px;
+	margin-top: 32px;
+	background-color: lightpink;
+	box-sizing: border-box;
+}
 
+.its-free-real-estate {
+	height: 40;
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0%;
+	background-color: aliceblue;
+}
+
+.free-space {
+	width: calc(100% - 64px);
+	margin-left: 32px;
+	margin-top: 32px;
+	background-color: burlywood;
+	box-sizing: border-box;
+}
+
+.ska-doosh {
+	width: calc(100% - 64px);
+	height: 503px;
+	background-color:aquamarine;
+}
 
 
 /* Area 9 */
