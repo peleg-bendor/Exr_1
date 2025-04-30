@@ -436,6 +436,71 @@ button.product-name {
 
 
 
+/* Area 7 */
+.area7 {
+	width: calc(100% - 64px);
+	margin-left: 32px;
+	margin-top: 32px;
+	background-color: green;
+	box-sizing: border-box;
+}
+
+.drinks-title {
+	font-family: 'Rubik', sans-serif;
+	font-weight: 500;
+	height: 40;
+	font-size: 40px;
+	line-height: 40px;
+	letter-spacing: 0%;
+	margin-top: 0;
+	margin-bottom: 32px;
+	color: chartreuse;
+}
+
+.drinks-list {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+.drink-item {
+	display: flex;
+	align-items: center;
+	background-color: lightgoldenrodyellow;
+}
+
+.drink-circle {
+	width: 82px;
+	height: 82px;
+	background-color: brown;
+	border-radius: 50%;
+	flex-shrink: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+}
+
+.drink-circle img {
+	width: 29px;
+	height: auto;
+	object-fit: contain;
+}
+
+.drink-description {
+	margin-left: 16px;
+	font-family: 'Rubik', sans-serif;
+	height: 14;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 14px;
+	letter-spacing: 0%;
+	vertical-align: middle;
+	color:cornflowerblue;
+}
+
+
+
 
 
 
