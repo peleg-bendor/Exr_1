@@ -35,12 +35,14 @@ body {
     height: 64px;
     display: flex;
     align-items: center;
+	
 }
 
 .logo-area img {
     height: 64px;
     width: auto;
     object-fit: contain;
+	border-radius: 50%;
 }
 
 .logo-text {
@@ -116,7 +118,7 @@ body {
 	overflow: hidden;
 }
 
-.enjoy-content {
+.hero-content {
 	position: absolute;
 	top: 32px;
 	left: 32px;
@@ -126,7 +128,7 @@ body {
 }
 
 /* Hero Title */
-.area2 .enjoy {
+.area2 .hero {
 	font-size: 96px;
 	color:#612999;
 	font-family: 'Nunito', sans-serif;
@@ -136,11 +138,11 @@ body {
 }
 
 /* Hero Paragraph */
-.enjoy-par {
+.hero-par {
 	max-width: 450px;
 }
 
-.enjoy-par p {
+.hero-par p {
 	font-size: 24px;
 	color:#000000;
 	font-family: 'Nunito', sans-serif;
@@ -150,7 +152,7 @@ body {
 }
 
 /* Hero Background Image */
-.enjoy-image {
+.hero-image {
     width: 100%;
     height: auto;
 	object-fit: cover;
@@ -210,8 +212,8 @@ body {
 	clear: both;
 }
 
-/* Popular Drinks Title */
-.area4 .popular-drinks {
+/* Popular Products Title */
+.area4 .popular-products {
 	width: auto;
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
@@ -221,7 +223,7 @@ body {
 	margin-top: 0;
 }
 
-/* Popular Drinks Cards */
+/* Popular Products Cards */
 .cards {
 	margin-top: 0;
 }
@@ -356,12 +358,6 @@ button.product-name {
 
 
 
-
-
-
-
-
-
 /* Area 6 */
 .area6 {
 	width: calc(100% - 32px - 122px);
@@ -373,12 +369,12 @@ button.product-name {
 	justify-content: flex-start;
 }
 
-.nav-smoothie-pics {
+.nav-merch-pics {
 	display: flex;
 	align-items: center;
 }
 
-.nav-smoothie-pics ul {
+.nav-merch-pics ul {
 	display: flex;
 	list-style: none;
 	padding: 0;
@@ -386,13 +382,13 @@ button.product-name {
 	margin: 0;
 }
 
-.nav-smoothie-pics li {
+.nav-merch-pics li {
 	display: flex;
 	justify-content: center;
 	align-items: center;
 }
 
-.smoothie-pics {
+.merch-pics {
 	height: 300px;
 	width: auto;
 	object-fit: contain;
@@ -409,7 +405,7 @@ button.product-name {
 	box-sizing: border-box;
 }
 
-.drinks-title {
+.products-title {
 	font-family: 'Rubik', sans-serif;
 	font-weight: 500;
 	height: 40;
@@ -421,18 +417,18 @@ button.product-name {
 	color: #612999;
 }
 
-.drinks-list {
+.products-list {
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
 }
 
-.drink-item {
+.product-item {
 	display: flex;
 	align-items: center;
 }
 
-.drink-circle {
+.product-circle {
 	width: 82px;
 	height: 82px;
 	background-color: #612999;
@@ -444,13 +440,13 @@ button.product-name {
 	position: relative;
 }
 
-.drink-circle img {
+.product-circle img {
 	width: 29px;
 	height: auto;
 	object-fit: contain;
 }
 
-.drink-description {
+.product-description {
 	margin-left: 16px;
 	font-family: 'Rubik', sans-serif;
 	height: 14;
@@ -648,7 +644,7 @@ button.product-name {
 /* Copyright */
 
 .copyright {
-	width: 198px;
+	width: auto;
 	height: 18px;
 }
 
